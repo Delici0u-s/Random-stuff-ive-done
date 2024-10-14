@@ -14,9 +14,9 @@ int randint(int min, int max){
 int main(void){
     // settable vars
     int SEED = 1;
-    int repetitions = 25;
-    int genmin = -2;
-    int genmax = 20;
+    int repetitions = 5;
+    int genmin = 0;
+    int genmax = 1;
 
     //other for program
     int min = genmax;
@@ -57,7 +57,8 @@ int main(void){
     }
     
     //all the printouts
-    printf("Given: Min: %i Max: %i, Repetitions: %i, with Seed: %i\n", genmin, genmax, repetitions, SEED);
+    printf("Given: Min: %i, Max: %i, Repetitions: %i, with Seed: %i\n", genmin, genmax, repetitions, SEED);
     printf("in Generation: Min: %i Max: %i\n", min, max);
     printf("Highest gen: %i, with count %i\n", maxc[1], maxc[0]);
 }
+
