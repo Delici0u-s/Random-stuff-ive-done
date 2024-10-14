@@ -60,5 +60,4 @@ int main(void){
     printf("Given: Min: %i Max: %i, Repetitions: %i, with Seed: %i\n", genmin, genmax, repetitions, SEED);
     printf("in Generation: Min: %i Max: %i\n", min, max);
     printf("Highest gen: %i, with count %i\n", maxc[1], maxc[0]);
-    printf("done");
 }
